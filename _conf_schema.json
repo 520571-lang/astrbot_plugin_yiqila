@@ -1,0 +1,17 @@
+{
+  "enabled": {
+    "description": "启用插件",
+    "type": "bool",
+    "default": true
+  },
+  "process_self_msg": {
+    "description": "处理自己消息",
+    "type": "bool",
+    "default": false
+  },
+  "group_blacklist": {
+    "description": "群黑名单",
+    "type": "list",
+    "default": []
+  }
+}
