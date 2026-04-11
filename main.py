@@ -35,7 +35,7 @@ def is_valid_url(url: str) -> bool:
         return False
 
 
-@register("一起拉", "喃喃", "屎壳郎戴面具——臭不要脸！厕所里跳高——过粪了！带薪拉屎组队，马桶上开黑！", "1.3")
+@register("一起拉", "喃喃", "屎壳郎戴面具——臭不要脸！厕所里跳高——过粪了！带薪拉屎组队，马桶上开黑！", "0.5")
 class YiQiLaPlugin(Star):
     def __init__(self, context: Context, config: dict):
         super().__init__(context)
